@@ -1,0 +1,104 @@
+/* Home.css */
+
+.agriculture-home {
+  width: auto;
+  min-height: 100vh;
+  /* padding: 20px; */
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  color:gray;
+  
+}
+
+.agriculture-home header {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.agriculture-home header h1 {
+  color: #f1f4f6;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.agriculture-home header p {
+  color:gray;
+  font-size: 1.2rem;
+}
+
+.agriculture-home section {
+  margin-bottom: 20px;
+}
+
+.agriculture-home h2 {
+  color: rgb(38, 187, 105) ;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.agriculture-home p {
+  color:white;
+  font-size: 1.3rem;
+}
+
+.agriculture-home ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.agriculture-home li {
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.agriculture-home a {
+  color: rgb(38, 187, 105) ;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.agriculture-home a:hover {
+  text-decoration: underline;
+}
+
+
+.card {
+  display: flex;
+  width: auto; 
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  border:5px solid rgb(38, 187, 105) ;
+}
+
+.card img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 1000px; 
+  height: 100%; 
+  /* object-fit: cover; */
+}
+
+.card-content {
+  flex: 1;
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card p{
+  color: gray;
+}
