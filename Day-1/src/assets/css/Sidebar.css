@@ -1,0 +1,54 @@
+/* Add this CSS to your styles, you can include it in a separate CSS file or use a styling solution like styled-components */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+main {
+  transition: margin-left 0.3s;
+}
+
+.app-bar {
+  background-color: #333;
+}
+
+.menu-icon {
+  color: #fff;
+}
+
+.drawer {
+  width: 240px;
+}
+
+.drawer-header {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 64px;
+  background-color: #222;
+  color: #fff;
+}
+
+.drawer-list {
+  padding-top: 20px;
+}
+
+.drawer-list-item {
+  padding: 8px 20px;
+  color: #444;
+  transition: background-color 0.3s;
+}
+
+.drawer-list-item:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+/* Feel free to customize the colors and styles based on your preferences */

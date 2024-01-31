@@ -1,0 +1,39 @@
+/* AdminNavbar.css */
+
+.adna-nav-bg {
+  background-color: rgb(38, 187, 105) !important;
+
+  }
+  
+  .adna-toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .adna-logo {
+    font-family: 'monospace';
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .adna-admin-pages-container {
+    display: flex;
+  }
+  
+  .adna-admin-page-button {
+    margin: 10px;
+    color: white;
+  }
+  
+  .adna-admin-avatar {
+    margin-top: 8px;
+  }
+  
+  .adna-menu-icon {
+    margin-right: 16px;
+  }
+  
+  /* Add more styles as needed */
+  

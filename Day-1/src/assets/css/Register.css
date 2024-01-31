@@ -1,0 +1,75 @@
+.reg-img{
+  background-image:url('../Images/bglog.jpg') ;
+  /* /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  /* margin-top: 20px; */
+  padding-top: 200px;
+}
+.registration-form-container {
+  max-width: 400px;
+  margin: 20px auto; /* Add margin for space above the form */
+  padding: 20px;
+  
+  border: 2px solid rgb(38, 187, 105);
+  border-radius: 10px;
+  /* background-color: ; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form-container h2 {
+  text-align: center;
+  color: black;
+  
+}
+
+.registration-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form-container label {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form-container input,
+.registration-form-container textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 2px solid  rgb(38, 187, 105);
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.registration-form-container button {
+  background-color:  rgb(38, 187, 105);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.registration-form-container button:hover {
+  background-color: #19de51;
+}
+
+.registration-form-container p {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.registration-form-container a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.registration-form-container a:hover {
+  text-decoration: underline;
+}
