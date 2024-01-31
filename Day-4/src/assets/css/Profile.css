@@ -1,0 +1,54 @@
+/* ProfilePage.css */
+
+.adp-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(38, 187, 105);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adp-profile-left {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    margin-right: 20px;
+  }
+  
+  .adp-profile-left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .adp-profile-right {
+    flex-grow: 1;
+  }
+  
+  .adp-profile-right h2 {
+    padding-left: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.adp-mobile-number,
+.adp-email {
+    color: white;
+    font-size: 20px;
+      padding-left: 50px;
+       margin: 5px 0;
+  }
+
+  .adp-left{
+    align-items: left;
+  }
+
+  .adp-right{
+    align-items:right;
+  }
+  
