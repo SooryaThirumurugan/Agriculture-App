@@ -1,0 +1,60 @@
+/* AdminSettings.css */
+.adse-settings-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adse-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .adse-setting-item {
+    margin-bottom: 15px;
+  }
+  
+  .adse-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .adse-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .adse-checkbox-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .adse-checkbox {
+    margin-right: 5px;
+  }
+  
+  .adse-save-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .adse-save-button:hover {
+    background-color: #45a049;
+  }
+  
+  

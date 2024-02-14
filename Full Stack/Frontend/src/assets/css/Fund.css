@@ -1,0 +1,82 @@
+/* 
+.fund-allocation-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.intro-section {
+  margin-bottom: 20px;
+}
+
+.allocation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.allocation-table th, .allocation-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.allocation-table th {
+  background-color: #f2f2f2;
+}
+
+.conclusion-section {
+  margin-top: 20px;
+}
+ */
+
+
+/* FundPage.css */
+
+.fund-allocation-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.intro-section {
+  margin-bottom: 20px;
+}
+
+.allocation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.allocation-table th, .allocation-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.allocation-table th {
+  background-color:  rgb(38, 187, 105);
+}
+
+.allocation-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.allocation-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.conclusion-section {
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */
